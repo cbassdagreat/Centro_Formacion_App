@@ -1,10 +1,13 @@
 package cbassdagreat.github.centro_formacion_app.model
 
 
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
-
-data class ListaCursosItem(
+@Entity(tableName = "curso_resumen")
+data class CursosItem(
     @SerializedName("id")
+    @PrimaryKey
     val id: String,
     @SerializedName("image")
     val image: String,
