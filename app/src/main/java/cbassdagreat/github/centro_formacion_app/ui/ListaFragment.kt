@@ -28,6 +28,8 @@ class ListaFragment : Fragment() {
         val adapter=CursoItemAdapter()
         adapter.setMiOnClickListener(object :CursoItemAdapter.MiOnClickListener{
             override fun onClickListener(cursosItem: CursosItem) {
+                viewModel.getCursoDetalle(cursosItem.id)
+                viewModel.id.value=cursosItem.id
                 Navigation.findNavController(requireView()).navigate(R.id.action_listaFragment_to_detalleFragment)
             }
         })
