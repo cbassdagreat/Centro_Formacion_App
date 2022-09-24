@@ -12,6 +12,8 @@ import cbassdagreat.github.centro_formacion_app.model.CursosItem
 @Database(entities = [CursosItem::class, CursoDetalle::class], version = 1)
 abstract class ProjectDB : RoomDatabase() {
 
+
+
     abstract fun cursoItem() : CursoItemDao
     abstract fun cursoDetalle() :CursoDetalleDao
 

@@ -6,6 +6,8 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class ClienteRetrofit {
 
+
+
     companion object{
         const val base_url="https://courses-fake-api.herokuapp.com/"
         private var cliente: Retrofit? = null

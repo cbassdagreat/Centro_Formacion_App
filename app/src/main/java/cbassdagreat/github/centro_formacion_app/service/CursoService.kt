@@ -12,5 +12,5 @@ interface CursoService {
     fun getCursos(): Call<ListaCursos>
 
     @GET("courses_details/{id}")
-    fun getCursoDetalle(@Path("id") id:String) : Call<CursoDetalle>
+    fun getCursoDetalle(@Path("id") id: String) : Call<CursoDetalle>
 }
