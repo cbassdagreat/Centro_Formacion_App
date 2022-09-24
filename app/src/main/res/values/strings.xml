@@ -2,7 +2,7 @@
     <string name="app_name">Centro_Formacion_App</string>
     <string name="vista_previa">Vista previa del curso</string>
     <string name="creado">Creado por:</string>
-    <string name="tiempo">Tiempo del curso:</string>
+    <string name="tiempo">Duración del curso:</string>
     <string name="semanas">Semanas</string>
     <string name="comienzo">Comienzo:</string>
     <string name="nombre">Nombre Curso:</string>
@@ -10,4 +10,12 @@
     <string name="precio">Precio:</string>
     <string name="hab_min">Habilidad mínima:</string>
     <string name="modalidad">Modalidad:</string>
+    <string name="nom_example">Java for Android</string>
+    <string name="hab_example">Beginner</string>
+    <string name="price_example">$800</string>
+    <string name="descripcion_example">This course will provide you with all of the essentials to become a successful frontend web developer. You will learn to master HTML, CSS and front end JavaScript, along with tools like Git, VSCode and front end frameworks like Vue</string>
+    <string name="tiempo_example">8</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
