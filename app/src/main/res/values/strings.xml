@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Centro_Formacion_App</string>
+    <string name="vista_previa">Vista previa del curso</string>
+    <string name="creado">Creado por:</string>
+    <string name="tiempo">Tiempo del curso:</string>
+    <string name="semanas">Semanas</string>
+    <string name="comienzo">Comienzo:</string>
+    <string name="nombre">Nombre Curso:</string>
+    <string name="descripcion">Descripción:</string>
+    <string name="precio">Precio:</string>
+    <string name="hab_min">Habilidad mínima:</string>
+    <string name="modalidad">Modalidad:</string>
+</resources>
